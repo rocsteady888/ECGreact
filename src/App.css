@@ -1,2 +1,7 @@
-.App {
+p {
+  font-size: 1.8em;
+}
+
+.collection-item {
+  font-size: 1.2em;
 }
