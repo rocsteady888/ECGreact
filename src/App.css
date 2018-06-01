@@ -9,5 +9,7 @@ p {
 
 .card-media {
   float: left;
+  margin-top: 10px;
+  margin-bottom: 2px;
   margin-right: 25px;
 }
