@@ -1,7 +1,13 @@
 p {
   font-size: 1.8em;
+  text-align: justify;
 }
 
 .collection-item {
   font-size: 1.2em;
+}
+
+.card-media {
+  float: left;
+  margin-right: 25px;
 }
