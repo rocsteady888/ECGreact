@@ -6,7 +6,8 @@ const Navigation = () => {
   return (
     <div>
       <Navbar brand='ECG Toolbox' right>
-        <Link to='/action-potential'>Action Potential</Link>
+        <li><Link to='/action-potential'>Action Potential</Link></li>
+        <li><Link to='/drugs-and-electrolytes'>Drugs and Electrolytes</Link></li>
       </Navbar>
     </div>
   );

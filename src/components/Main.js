@@ -1,6 +1,7 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import ActionPotential from './ActionPotential'
+import DrugsAndElectrolytes from './DrugsAndElectrolytes'
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -11,6 +12,7 @@ const Main = () => (
   <main>
     <Switch>
       <Route path='/action-potential' component={ActionPotential} />
+      <Route path='/drugs-and-electrolytes' component={DrugsAndElectrolytes} />
     </Switch>
   </main>
 )
